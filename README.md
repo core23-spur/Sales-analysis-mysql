@@ -12,8 +12,21 @@
 5. Построить воронку продаж.
 
 ## 📊 Данные
-Источник:
+Источник: [Northwind Database (MySQL)](https://github.com/dalers/mywind)
+Датасет содержит данные вымышленной компании Northwind Traders: 
+клиенты, заказы, товары, сотрудники, поставщики, склад.
+
 Таблицы:
+- `customers` — клиенты компании
+- `orders` — заказы
+- `order_details` — позиции заказов
+- `products` — товары
+- `categories` — категории товаров (в поле `category` таблицы products)
+- `employees` — сотрудники
+- `suppliers` — поставщики
+- `shippers` — службы доставки
+- `invoices` — счета
+- `inventory_transactions` — движения по складу
 
 ## 🗂 Структура репозитория
 - `/data` — исходные данные
